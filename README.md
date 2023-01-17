@@ -14,3 +14,9 @@
 1. `npx typescript-express-starter server`
 1. `rm -r ./server/.git`
 1. `npm run dev` and <http://localhost:3000/api-docs/> should be accessible
+
+## 2. Create makefile
+
+1. Clean everything: `make clean`
+1. Run frontend: `make frontend` (It will install the dependencies itself if they aren't found)
+1. Run server: `make server` (It will install the dependencies itself if they aren't found)
